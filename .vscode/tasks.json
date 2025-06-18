@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-I",
                 "C:\\gitcode\\cpp-data-structures",//写代码的文件路径
                 "-std=c++17"
